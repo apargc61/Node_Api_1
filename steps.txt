@@ -1,0 +1,6 @@
+# these are steps to test for the API -- these test the different methods
+# we can do the same with the Insomnia as well -- there is other similar tool as well.  
+ 
+  389  curl http://localhost:3000/items\n
+  390  curl -X POST -H "Content-Type: application/json" -d '{"name": "Milk"}' http://localhost:3000/items\n
+  391  curl http://localhost:3000/items\n
